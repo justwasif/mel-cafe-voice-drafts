@@ -1,0 +1,8 @@
+{"type":"run_started","runId":"47ca3d2f-2c0a-4604-bb22-ad2b4cad046e","task":"explain how checkout totals are calculated","repo":"tiny-shop","at":1795084353431}
+{"type":"tool_started","callId":"call-9dff1ed8","tool":"search","args":{"query":"checkout"},"parentId":"start","at":1795084452801}
+{"type":"file_touched","callId":"call-9dff1ed8","path":"README.md","mode":"searched","lines":1}
+{"type":"file_touched","callId":"call-9dff1ed8","path":"src/cart.ts","mode":"searched","lines":3}
+{"type":"file_touched","callId":"call-9dff1ed8","path":"src/index.ts","mode":"searched","lines":2}
+{"type":"file_touched","callId":"call-9dff1ed8","path":"tests/cart.test.ts","mode":"searched","lines":4}
+{"type":"tool_finished","callId":"call-9dff1ed8","ok":true,"summary":"Search \"checkout\" found 4 file(s)\nREADME.md: lines 7\nsrc/cart.ts: lines 11, 19, 22\nsrc/index.ts: lines 1, 8\ntests/cart.test.ts: lines 2, 4, 6, 14","durationMs":4,"at":1795084452805}
+{"type":"run_finished","status":"failed","summary":"{\"error\":{\"code\":400,\"message\":\"Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:search` , position 2. Please refer to https://aistudio.google.com/docs/thought-signatures for more details.\",\"status\":\"INVALID_ARGUMENT\"}}","stats":{"toolCalls":1,"filesRead":0,"filesWritten":0,"testsPassed":null,"durationMs":99780,"tokensIn":0,"tokensOut":0}}

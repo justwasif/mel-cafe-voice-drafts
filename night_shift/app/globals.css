@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0B1220;
+  --foreground: #E6EAF2;
+  --surface: #111A2E;
+  --border: #1E2A44;
+  --accent: #FACC15;
+  --accent-hover: #EAB308;
+  --accent-soft: rgba(250,204,21,.12);
+  --secondary: #9AA6BF;
+  --muted: #5B6884;
+  --price-up: #F87171;
+  --price-down: #34D399;
+  --plan-added: #60A5FA;
+  --plan-removed: #F472B6;
+  --no-change: #5B6884;
+  --sentry-new: #F87171;
+  --sentry-regressed: #FB923C;
+  --sentry-resolved: #34D399;
+  --status-running: #60A5FA;
+  --status-waiting: #FACC15;
+  --status-posted: #34D399;
+  --status-skipped: #5B6884;
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-price-up: var(--price-up);
+  --color-price-down: var(--price-down);
+  --color-plan-added: var(--plan-added);
+  --color-plan-removed: var(--plan-removed);
+  --color-no-change: var(--no-change);
+  --color-sentry-new: var(--sentry-new);
+  --color-sentry-regressed: var(--sentry-regressed);
+  --color-sentry-resolved: var(--sentry-resolved);
+  --color-status-running: var(--status-running);
+  --color-status-waiting: var(--status-waiting);
+  --color-status-posted: var(--status-posted);
+  --color-status-skipped: var(--status-skipped);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}

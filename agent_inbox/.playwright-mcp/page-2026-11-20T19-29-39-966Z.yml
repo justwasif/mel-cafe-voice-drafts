@@ -1,0 +1,155 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - complementary [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - generic [ref=f1e5]:
+          - generic [ref=f1e6]: A
+          - generic [ref=f1e7]:
+            - generic [ref=f1e8]: Atlas
+            - generic [ref=f1e9]: Lumen Notes · ops assistant
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]: atlas@lumen-notes.example
+          - generic [ref=f1e16]: "@Atlas in #agent-desk"
+        - generic [ref=f1e20]: Listening
+        - generic [ref=f1e23]:
+          - generic [ref=f1e24]:
+            - generic [ref=f1e25]: "11"
+            - generic [ref=f1e26]: in today
+          - generic [ref=f1e27]:
+            - generic [ref=f1e28]: "2"
+            - generic [ref=f1e29]: held
+          - generic [ref=f1e30]:
+            - generic [ref=f1e31]: "2"
+            - generic [ref=f1e32]: sent
+      - navigation [ref=f1e33]:
+        - button "Desk" [ref=f1e34]
+        - button "Log" [ref=f1e38]
+        - button "Tasks" [ref=f1e42]
+        - button "Settings" [ref=f1e46]
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]: Test workspace · email stays local
+        - button "Sign out (Lead)" [ref=f1e52]
+    - main [ref=f1e56]:
+      - generic [ref=f1e57]:
+        - generic [ref=f1e58]:
+          - generic [ref=f1e59]:
+            - heading "Message log" [level=1] [ref=f1e60]
+            - paragraph [ref=f1e61]: Every message in and out, both channels.
+          - generic [ref=f1e62]:
+            - button "Table" [ref=f1e63]
+            - button "Lanes" [active] [ref=f1e66]
+        - generic [ref=f1e69]:
+          - combobox [ref=f1e70]:
+            - option "All channels" [selected]
+            - option "Email"
+            - option "Slack"
+          - combobox [ref=f1e71]:
+            - option "Both ways" [selected]
+            - option "Incoming"
+            - option "Outgoing"
+          - combobox [ref=f1e72]:
+            - option "Any status" [selected]
+            - option "Held"
+            - option "Sent"
+            - option "Rejected"
+            - option "Failed"
+          - textbox "Search…" [ref=f1e77]
+        - generic [ref=f1e274]:
+          - generic [ref=f1e275]:
+            - generic [ref=f1e276]:
+              - heading "Email" [level=3] [ref=f1e280]
+              - generic [ref=f1e281]: "7"
+            - generic [ref=f1e282]:
+              - 'button "atlas@lumen-notes.example Nov 21, 12:22 AM Re: When does offline mode ship? Sent ✓" [ref=f1e283]':
+                - generic [ref=f1e284]:
+                  - generic [ref=f1e285]: atlas@lumen-notes.example
+                  - generic [ref=f1e286]: Nov 21, 12:22 AM
+                - generic [ref=f1e287]: "Re: When does offline mode ship?"
+                - generic [ref=f1e288]: Sent ✓
+              - button "casey.patel@example.com Nov 21, 12:11 AM Can I import from Evernote? Incoming" [ref=f1e292]:
+                - generic [ref=f1e293]:
+                  - generic [ref=f1e294]: casey.patel@example.com
+                  - generic [ref=f1e295]: Nov 21, 12:11 AM
+                - generic [ref=f1e296]: Can I import from Evernote?
+                - generic [ref=f1e297]: Incoming
+              - button "jordan.lee@example.com Nov 21, 12:11 AM Thanks for the quick help last week! Incoming" [ref=f1e301]:
+                - generic [ref=f1e302]:
+                  - generic [ref=f1e303]: jordan.lee@example.com
+                  - generic [ref=f1e304]: Nov 21, 12:11 AM
+                - generic [ref=f1e305]: Thanks for the quick help last week!
+                - generic [ref=f1e306]: Incoming
+              - 'button "weekly@noteshighlights.example.com Nov 21, 12:11 AM This week in productivity: 5 tips Incoming" [ref=f1e310]':
+                - generic [ref=f1e311]:
+                  - generic [ref=f1e312]: weekly@noteshighlights.example.com
+                  - generic [ref=f1e313]: Nov 21, 12:11 AM
+                - generic [ref=f1e314]: "This week in productivity: 5 tips"
+                - generic [ref=f1e315]: Incoming
+              - 'button "accounts@vendor-payments.example.com Nov 21, 12:11 AM Invoice #INV-2026-0431 — for your records Incoming" [ref=f1e319]':
+                - generic [ref=f1e320]:
+                  - generic [ref=f1e321]: accounts@vendor-payments.example.com
+                  - generic [ref=f1e322]: Nov 21, 12:11 AM
+                - generic [ref=f1e323]: "Invoice #INV-2026-0431 — for your records"
+                - generic [ref=f1e324]: Incoming
+              - button "sam.ortiz@example.com Nov 21, 12:11 AM Export to PDF is failing Incoming" [ref=f1e328]:
+                - generic [ref=f1e329]:
+                  - generic [ref=f1e330]: sam.ortiz@example.com
+                  - generic [ref=f1e331]: Nov 21, 12:11 AM
+                - generic [ref=f1e332]: Export to PDF is failing
+                - generic [ref=f1e333]: Incoming
+              - button "maya.chen@example.com Nov 21, 12:11 AM When does offline mode ship? Incoming" [ref=f1e337]:
+                - generic [ref=f1e338]:
+                  - generic [ref=f1e339]: maya.chen@example.com
+                  - generic [ref=f1e340]: Nov 21, 12:11 AM
+                - generic [ref=f1e341]: When does offline mode ship?
+                - generic [ref=f1e342]: Incoming
+          - generic [ref=f1e346]:
+            - generic [ref=f1e347]:
+              - heading "Slack" [level=3] [ref=f1e350]
+              - generic [ref=f1e351]: "6"
+            - generic [ref=f1e352]:
+              - button "Live Demo Customer Nov 21, 12:23 AM @Atlas quick question — what are your support hour Incoming" [ref=f1e353]:
+                - generic [ref=f1e354]:
+                  - generic [ref=f1e355]: Live Demo Customer
+                  - generic [ref=f1e356]: Nov 21, 12:23 AM
+                - generic [ref=f1e357]: "@Atlas quick question — what are your support hour"
+                - generic [ref=f1e358]: Incoming
+              - button "Atlas Nov 21, 12:22 AM Hi Sam, thanks for following up. The export-to-PDF Sent ✓" [ref=f1e362]:
+                - generic [ref=f1e363]:
+                  - generic [ref=f1e364]: Atlas
+                  - generic [ref=f1e365]: Nov 21, 12:22 AM
+                - generic [ref=f1e366]: Hi Sam, thanks for following up. The export-to-PDF
+                - generic [ref=f1e367]: Sent ✓
+              - button "Sam (Customer) Nov 21, 12:18 AM @Atlas thanks for looking into my PDF export issue Incoming" [ref=f1e371]:
+                - generic [ref=f1e372]:
+                  - generic [ref=f1e373]: Sam (Customer)
+                  - generic [ref=f1e374]: Nov 21, 12:18 AM
+                - generic [ref=f1e375]: "@Atlas thanks for looking into my PDF export issue"
+                - generic [ref=f1e376]: Incoming
+              - button "Riley (Support) Nov 21, 12:18 AM @Atlas a customer named Maya emailed asking when o Incoming" [ref=f1e380]:
+                - generic [ref=f1e381]:
+                  - generic [ref=f1e382]: Riley (Support)
+                  - generic [ref=f1e383]: Nov 21, 12:18 AM
+                - generic [ref=f1e384]: "@Atlas a customer named Maya emailed asking when o"
+                - generic [ref=f1e385]: Incoming
+              - 'button "Devon (Eng) Nov 21, 12:18 AM @Atlas heads up: the sync-delay bug is fixed in 4. Incoming" [ref=f1e389]':
+                - generic [ref=f1e390]:
+                  - generic [ref=f1e391]: Devon (Eng)
+                  - generic [ref=f1e392]: Nov 21, 12:18 AM
+                - generic [ref=f1e393]: "@Atlas heads up: the sync-delay bug is fixed in 4."
+                - generic [ref=f1e394]: Incoming
+              - button "Priya (Sales) Nov 21, 12:18 AM @Atlas can you email Sam that the export-to-PDF fi Incoming" [ref=f1e398]:
+                - generic [ref=f1e399]:
+                  - generic [ref=f1e400]: Priya (Sales)
+                  - generic [ref=f1e401]: Nov 21, 12:18 AM
+                - generic [ref=f1e402]: "@Atlas can you email Sam that the export-to-PDF fi"
+                - generic [ref=f1e403]: Incoming
+  - generic [ref=f1e84] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f1e85]
+    - generic [ref=f1e89]:
+      - button "Open issues overlay" [ref=f1e90]:
+        - generic [ref=f1e91]:
+          - generic [aria-hidden] [ref=f1e92]: "0"
+          - generic [ref=f1e93]: "1"
+        - generic [ref=f1e94]: Issue
+      - button "Collapse issues badge" [ref=f1e95]
+  - alert [ref=f1e98]

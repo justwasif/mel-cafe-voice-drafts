@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: A
+      - generic [ref=e6]:
+        - generic [ref=e7]: Atlas
+        - generic [ref=e8]: Agent Inbox · Lumen Notes
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: Email
+        - textbox "you@example.com" [ref=e12]: lead@lumen-notes.example
+      - generic [ref=e13]:
+        - generic [ref=e14]: Password
+        - textbox [ref=e15]: TestPass123!
+      - button "Sign in" [ref=e16]
+      - paragraph [ref=e17]:
+        - text: Run
+        - code [ref=e18]: npm run db:create-owner
+        - text: to create the owner account.
+  - button "Open Next.js Dev Tools" [ref=e29] [cursor=pointer]:
+    - generic [ref=e32]:
+      - text: Compiling
+      - generic [ref=e33]:
+        - generic [ref=e34]: .
+        - generic [ref=e35]: .
+        - generic [ref=e36]: .
+  - alert [ref=e28]

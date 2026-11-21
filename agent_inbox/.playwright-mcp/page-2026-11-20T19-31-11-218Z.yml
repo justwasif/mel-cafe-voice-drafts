@@ -1,0 +1,77 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - complementary [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e5]:
+          - generic [ref=f3e6]: A
+          - generic [ref=f3e7]:
+            - generic [ref=f3e8]: Atlas
+            - generic [ref=f3e9]: Lumen Notes · ops assistant
+        - generic [ref=f3e10]:
+          - generic [ref=f3e11]: atlas@lumen-notes.example
+          - generic [ref=f3e16]: "@Atlas in #agent-desk"
+        - generic [ref=f3e20]: Listening
+        - generic [ref=f3e23]:
+          - generic [ref=f3e24]:
+            - generic [ref=f3e25]: –
+            - generic [ref=f3e26]: in today
+          - generic [ref=f3e27]:
+            - generic [ref=f3e28]: –
+            - generic [ref=f3e29]: held
+          - generic [ref=f3e30]:
+            - generic [ref=f3e31]: –
+            - generic [ref=f3e32]: sent
+      - navigation [ref=f3e33]:
+        - button "Desk" [ref=f3e34]
+        - button "Log" [ref=f3e38]
+        - button "Tasks" [ref=f3e42]
+        - button "Settings" [ref=f3e46]
+      - generic [ref=f3e50]:
+        - generic [ref=f3e51]: Test workspace · email stays local
+        - button "Sign out (Lead)" [ref=f3e52]
+    - main [ref=f3e56]:
+      - generic [ref=f3e57]:
+        - heading "Settings" [level=1] [ref=f3e58]
+        - paragraph [ref=f3e59]: Agent identity and allowed recipients.
+        - generic [ref=f3e60]:
+          - generic [ref=f3e61]:
+            - heading "Agent identity" [level=2] [ref=f3e62]
+            - generic [ref=f3e63]:
+              - generic [ref=f3e64]: Name
+              - generic [ref=f3e65]: Atlas
+            - generic [ref=f3e66]:
+              - generic [ref=f3e67]: Email
+              - generic [ref=f3e68]: atlas@lumen-notes.example
+            - generic [ref=f3e69]:
+              - generic [ref=f3e70]: Slack channel
+              - generic [ref=f3e71]: "#agent-desk"
+            - generic [ref=f3e72]:
+              - generic [ref=f3e73]: App URL
+              - generic [ref=f3e74]: http://localhost:3009
+          - generic [ref=f3e75]:
+            - heading "Allowed recipients (guard)" [level=2] [ref=f3e76]
+            - paragraph [ref=f3e77]: Atlas can only draft to these. Anything else is refused before a draft is written.
+            - list [ref=f3e78]:
+              - listitem [ref=f3e79]:
+                - text: "Email:"
+                - code [ref=f3e81]: "*@example.com"
+              - listitem [ref=f3e82]:
+                - text: "Slack:"
+                - code [ref=f3e84]: "#agent-desk"
+                - text: only
+          - generic [ref=f3e85]:
+            - heading "Email delivery" [level=2] [ref=f3e86]
+            - paragraph [ref=f3e87]:
+              - text: Outbound email is sent via SMTP to
+              - code [ref=f3e88]: localhost:1025
+              - text: (Mailpit) only. A code guard prevents sending anywhere else.
+  - generic [ref=f3e93] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f3e94]
+    - generic [ref=f3e98]:
+      - button "Open issues overlay" [ref=f3e99]:
+        - generic [ref=f3e100]:
+          - generic [aria-hidden] [ref=f3e101]: "0"
+          - generic [ref=f3e102]: "1"
+        - generic [ref=f3e103]: Issue
+      - button "Collapse issues badge" [ref=f3e104]
+  - alert [ref=f3e107]

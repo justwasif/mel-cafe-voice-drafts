@@ -1,0 +1,12 @@
+{
+  "name": "tiny-shop",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "vitest": "^2"
+  }
+}
